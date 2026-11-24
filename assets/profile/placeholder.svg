@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="560" viewBox="0 0 480 560" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="480" y2="560" gradientUnits="userSpaceOnUse"><stop stop-color="#e9edf9"/><stop offset="1" stop-color="#e4f0f3"/></linearGradient>
+    <linearGradient id="ring" x1="90" y1="100" x2="400" y2="420" gradientUnits="userSpaceOnUse"><stop stop-color="#4c6bca" stop-opacity=".35"/><stop offset="1" stop-color="#70c5cd" stop-opacity=".2"/></linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#7081b4" fill-opacity=".18"/></pattern>
+  </defs>
+  <path fill="url(#bg)" d="M0 0h480v560H0z"/>
+  <path fill="url(#grid)" d="M0 0h480v560H0z"/>
+  <circle cx="240" cy="264" r="157" stroke="url(#ring)"/>
+  <circle cx="240" cy="264" r="131" stroke="url(#ring)" stroke-dasharray="3 8"/>
+  <circle cx="240" cy="264" r="105" fill="#fff" fill-opacity=".33" stroke="#fff" stroke-opacity=".6"/>
+  <text x="240" y="285" text-anchor="middle" fill="#5168a6" font-family="Arial,sans-serif" font-size="68" letter-spacing="-4">YN</text>
+  <circle cx="367" cy="170" r="6" fill="#66b9ce"/>
+  <circle cx="105" cy="343" r="4" fill="#8296cd"/>
+  <path d="M34 37h18M43 28v18m385 468h18m-9-9v18" stroke="#8b9cc1" stroke-opacity=".7"/>
+</svg>
